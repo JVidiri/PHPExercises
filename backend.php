@@ -35,7 +35,7 @@ function printLargeText($text, $limit){
 				echo $newLine;
 			}
 			echo substr($word, 0, $limit);
-			echo "-";//Not counnting this, since it is the separator.
+			//echo "-";
 			echo $newLine;
 			$wordRest = substr($word, $limit);
 			if ( strlen($wordRest) > $limit ){
